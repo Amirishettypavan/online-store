@@ -1,0 +1,142 @@
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 2;
+
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar button{
+  margin-left: 20px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  font-size: x-large;
+  
+}
+.navbar button:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+/* Home */
+.cardDesign{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+
+}
+.cardDesign .card{
+ margin: 10px;
+}
+.displaycardMain{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.displayCard1{
+  border: 1px solid black;
+  background-image: url(../public/cat1.webp);
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
+.displayCard2{
+  border: 1px solid black;
+  background-image: url(../public/cat2.webp);
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
+.displayCard3{
+  border: 1px solid black;
+  background-image: url(../public/cat3.webp);
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
+.displayCard4{
+  border: 1px solid black;
+  background-image: url(../public/cat4.webp);
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
+.dropDown{
+  display: flex;
+  justify-content: end;
+  margin-right: 80px;
+}
+.homeSelect{
+  padding: 7px;
+}
+
+
+/* cart */
+.Cart{
+  margin-bottom: 10px;
+}
+.CartCard{
+  margin-left: 150px;
+  margin-right: 150px;
+  /* margin-top: 50px!important; */
+  gap: 10px;
+  
+}
+.Cart .card-body{
+  display: flex!important;
+  justify-content: space-around!important;
+  
+}
+.card span{
+  cursor: pointer;
+  font-size: large;
+}
+.cartImage{
+  margin-left: 300px;
+}
+
+/* category */
+.categoryCard{
+  margin-top: 100px!important;
+}
